@@ -9,12 +9,14 @@
 </head>
 
 <body>
-	<h1 class="text-center p-3 m-1">Internship Form</h1>
+	
 	<!-- the entire body must be written by student -->
+	<div class="border border p-2 box-sizin">
+		<h1 class="text-center p-3 m-1">Internship Form</h1>
 	<form method ="post" class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
     <label for="first-name-input" class="form-label">First name</label>
-    <input type="text" class="form-control"  placeholder="xyz@abc.com" id="first-name-input" value="Mark" required>
+    <input type="text" class="form-control"   id="first-name-input" value="Mark" required>
     <div class="invalid-feedback">
       First name required!
     </div>
@@ -30,7 +32,7 @@
     <label for="email-input" class="form-label">Email Address</label>
     <div class="input-group has-validation">
       
-      <input type="email" class="form-control" id="email-input" plaria-describedby="inputGroupPrepend" required>
+      <input type="email" class="form-control" placeholder="xyz@abc.com" id="email-input" plaria-describedby="inputGroupPrepend" required>
       <div class="invalid-feedback">
         Email Required!
       </div>
@@ -44,7 +46,7 @@
     </div>
   </div>
   <div class="col-md-3">
-    <label for="graduation-year-input" class="form-label">State</label>
+    <label for="graduation-year-input" class="form-label">Graduation Year</label>
     <select class="form-select" id="graduation-year-input" required>
       <option selected disabled value="">Choose...</option>
       <option value="2020">2020</option>
@@ -78,6 +80,7 @@
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
+		</div>
     <script type="text/javascript" src="./script.js">
 		
 </script>
